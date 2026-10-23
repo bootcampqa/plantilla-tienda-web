@@ -1,0 +1,202 @@
+/* 
+
+/* ===== GENERAL ===== */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: black;
+  background-color: #f4f6f8;
+  margin: 0;
+}
+
+.contenido {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+/* ===== CABECERA Y MENÚ ===== */
+.cabecera {
+  background-color: darkblue;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  margin: 0 12px;
+  padding: 6px 12px;
+  border-radius: 20px;
+}
+
+.menu a:hover,
+.menu a.activo {
+  background-color: green;
+}
+
+/* ===== PORTADA (Inicio) ===== */
+.portada {
+  background-color: white;
+  border-radius: 16px;
+  padding: 50px 30px;
+  text-align: center;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+}
+
+.etiqueta {
+  color: green;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
+
+/* ===== TEXTOS ===== */
+.titulo {
+  font-size: 36px;
+  color: darkblue;
+  margin: 10px 0;
+}
+
+.subtitulo {
+  font-size: 24px;
+  color: darkblue;
+  margin-top: 0;
+}
+
+.texto {
+  font-size: 17px;
+  color: grey;
+}
+
+/* ===== BLOQUES / SECCIONES ===== */
+.seccion {
+  background-color: white;
+  border-radius: 16px;
+  padding: 25px 30px;
+  margin-bottom: 25px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+}
+
+/* ===== PRODUCTOS ===== */
+.productos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Define exactamente 2 columnas iguales */
+    gap: 10px;                             /* Añade espacio de separación entre los productos */
+}
+
+.producto {
+  background-color: white;
+  border-radius: 16px;
+  padding: 10px;
+  margin-bottom: 15px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+}
+
+.producto-imagen {
+  width: 100%;
+  max-width: 150px;
+  border-radius: 12px;
+}
+
+.producto-titulo {
+  font-size: 22px;
+  margin: 15px 0 5px 0;
+}
+
+.producto-precio {
+  font-size: 22px;
+  color: green;
+  font-weight: bold;
+  margin: 0 0 15px 0;
+}
+
+.producto-label {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.producto-cantidad {
+  font-size: 16px;
+  padding: 6px 10px;
+  border: 1px solid white;
+  border-radius: 8px;
+}
+
+/* ===== BOTÓN ===== */
+.boton {
+  display: inline-block;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 12px 28px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.boton:hover {
+  background-color: darkgreen;
+}
+
+/* ===== CESTA ===== */
+.cesta {
+  background-color: white;
+  border: 2px dashed green;
+  border-radius: 16px;
+  padding: 25px 30px;
+}
+
+.cesta-linea {
+  font-size: 17px;
+  border-bottom: 1px solid white;
+  padding-bottom: 8px;
+}
+
+.cesta-total {
+  font-size: 24px;
+  font-weight: bold;
+  color: darkblue;
+}
+
+/* ===== FORMULARIO (Contacto) ===== */
+.campo-label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.campo {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: inherit;
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: whitesmoke;
+  border: 1px solid darkblue;
+  border-radius: 8px;
+}
+
+/* ===== PIE ===== */
+.pie {
+  background-color: darkblue;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+}

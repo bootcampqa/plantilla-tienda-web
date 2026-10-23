@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda | QA Market</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- MENÚ (igual en todas las páginas) -->
+  <header class="cabecera">
+    <p class="logo">QA Market</p>
+    <nav class="menu">
+      <a href="index.html">Inicio</a>
+      <a href="tienda.html" class="activo">Tienda</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+  </header>
+
+  <main class="contenido">
+
+    <h1 class="titulo">Tienda</h1>
+    <p class="texto">Elige tus productos favoritos.</p>
+
+    <section class="productos">
+    <!-- PRODUCTO -->
+    <div class="producto" id="producto-1">
+      <img class="producto-imagen" src="img/taza.jpg" alt="Taza QA Tester">
+      <h3 class="producto-titulo">Taza QA Tester</h3>
+      <p class="producto-precio">10.00 €</p>
+      <label class="producto-label">Cantidad:
+        <select class="producto-cantidad">
+          <option value="0" selected>0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select>
+      </label>
+      <button class="boton" type="button" onclick="anadirAlCarrito('producto-1')">Añadir al carrito</button>
+    </div>
+
+    <!-- PRODUCTO -->
+    <div class="producto" id="producto-2">
+      <img class="producto-imagen" src="img/camiseta.jpg" alt="Camiseta Bug Free">
+      <h3 class="producto-titulo">Camiseta Bug Free</h3>
+      <p class="producto-precio">15.00 €</p>
+      <label class="producto-label">Cantidad:
+        <select class="producto-cantidad">
+          <option value="0" selected>0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select>
+      </label>
+      <button class="boton" type="button" onclick="anadirAlCarrito('producto-2')">Añadir al carrito</button>
+    </div>
+
+    <!-- PRODUCTO -->
+    <div class="producto" id="producto-3">
+      <img class="producto-imagen" src="img/pin.jpg" alt="Pin Automatizador">
+      <h3 class="producto-titulo">Pin Automatizador</h3>
+      <p class="producto-precio">5.00 €</p>
+      <label class="producto-label">Cantidad:
+        <select class="producto-cantidad">
+          <option value="0" selected>0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select>
+      </label>
+      <button class="boton" type="button" onclick="anadirAlCarrito('producto-3')">Añadir al carrito</button>
+    </div>
+
+    <!-- PRODUCTO -->
+    <div class="producto" id="producto-4">
+      <img class="producto-imagen" src="img/sudadera.jpg" alt="Sudadera Code and Debug">
+      <h3 class="producto-titulo">Sudadera Code and Debug</h3>
+      <p class="producto-precio">30.00 €</p>
+      <label class="producto-label">Cantidad:
+        <select class="producto-cantidad">
+          <option value="0" selected>0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select>
+      </label>
+      <button class="boton" type="button" onclick="anadirAlCarrito('producto-4')">Añadir al carrito</button>
+    </div>
+  </section>
+    <!-- CESTA (valores simulados fijos) -->
+    <section class="cesta">
+      <h2 class="subtitulo">Tu cesta</h2>
+      <!-- Lista donde se añadirán los productos -->
+      <p id="lista-cesta" class="cesta-linea"></p>
+      <p class="cesta-linea">Subtotal:
+      <strong id="subtotal">0.00</strong> </p>
+      <p class="cesta-linea">IVA 21%:
+      <strong id="iva">0.00 </strong></p>
+      <p class="cesta-linea">Envío:
+      <strong id="envio">0.00</strong></p>
+      <p class="cesta-total">Total a Pagar:
+      <strong id="total">0.00</strong></p>
+      <button class="boton" type="button" onclick="finalizarCompra()">Finalizar compra</button>
+      <p id="mensaje-compra"></p>
+    </section>
+  </main>
+
+  <!-- PIE DE PÁGINA -->
+  <footer class="pie">
+    <p>© 2026 QA Experience</p>
+  </footer>
+
+</body>
+
+<!-- Script cargado al final -->
+<script src="script.js"></script>
+
+</html>
