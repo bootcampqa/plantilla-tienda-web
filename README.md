@@ -1,12 +1,10 @@
 # plantilla-tienda-web
 
 ## 🛒 QA Market · Plantilla del Curso Gratuito
-
-> Repositorio base y proyecto práctico para los alumnos del **[📚 Curso Fundamentos Técnicos - QA Experience - 6 Semanas](https://forested-larkspur-160.notion.site/Curso-Fundamentos-T-cnicos-QA-Experience-6-Semanas-40245c3193bf805199dcdd4d81920f21)**.
 > 
-> Esta plantilla de comercio electrónico está diseñada para poner en práctica los conocimientos del curso.
+> Esta plantilla de comercio electrónico está diseñada para poner en práctica los conocimientos del curso gratuito de QA Experience: 
 
-🔗 **Accede al curso gratuito:** [Curso Fundamentos Técnicos - QA Experience - 6 Semanas](https://forested-larkspur-160.notion.site/Curso-Fundamentos-T-cnicos-QA-Experience-6-Semanas-40245c3193bf805199dcdd4d81920f21)
+🔗 [Curso Fundamentos Técnicos - QA Experience - 6 Semanas](https://forested-larkspur-160.notion.site/Curso-Fundamentos-T-cnicos-QA-Experience-6-Semanas-40245c3193bf805199dcdd4d81920f21)
 
 ---
 
